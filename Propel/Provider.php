@@ -52,7 +52,7 @@ class Provider extends AbstractProvider
             'debug_logging'        => false,
             'ignore_errors'        => false,
             'offset'               => 0,
-            'query_builder_method' => 'createQueryBuilder',
+            'query_builder_method' => null,
             'sleep'                => 0
         ));
     }
